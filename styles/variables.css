@@ -2,15 +2,4 @@
   --main-text-size:18px;
   --main-font:'IBM Plex mono';
   --accent-weight:700;
-  --bg-image: url(../images/cover-image-light.png);
-  --bg-color: #fff1f7;
-  --text-color: #353430;
-  --accent-color: #FF8DCB;
-  --header-accent-color: #353430;
-  --page-title-color: #ffc2e6;
-  --section-title-color: #353430;
-  --accent-text-color: #353430;
-  --main-text-color: #353430;
-  --footer-accent-color: #FF8DCB;
-  --rec-display: none;
 }

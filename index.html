@@ -5,6 +5,9 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Сложно сосредоточиться</title>
+    <link rel="icon" href="./images/favicon.ico" sizes="any" />
+    <link rel="icon" href="./images/favicon.svg" type="image/svg+xml" />
+    <link rel="mobile-icon" href="./images/mobile-icon.png" />
     <link rel="stylesheet" href="fonts/fonts.css" />
     <link rel="stylesheet" href="./styles/variables.css" />
     <link rel="stylesheet" href="./styles/style.css" />
@@ -17,23 +20,28 @@
   <body class="page">
     <header class="header">
       <div class="decorated-zone">
+        <span class="rec-element" aria-hidden="true">REC</span>
         <nav class="header__theme-menu">
           <ul class="header__theme-menu-list">
             <li class="header__theme-menu-item">
               <button
-                class="header__theme-menu-button header__theme-menu-button_type_light">
+                class="header__theme-menu-button header__theme-menu-button_type_light"
+              >
                 День
               </button>
             </li>
             <li class="header__theme-menu-item">
               <button
-                class="header__theme-menu-button header__theme-menu-button_active header__theme-menu-button_type_auto" disabled>
+                class="header__theme-menu-button header__theme-menu-button_active header__theme-menu-button_type_auto"
+                disabled
+              >
                 Авто
               </button>
             </li>
             <li class="header__theme-menu-item">
               <button
-                class="header__theme-menu-button header__theme-menu-button_type_dark">
+                class="header__theme-menu-button header__theme-menu-button_type_dark"
+              >
                 Неон
               </button>
             </li>
@@ -42,28 +50,30 @@
         <h1 class="page-title">no focus</h1>
         <p class="header-text">
           Что делать, когда не можешь делать ничего
-          <span class="line">
-            Или почему нам так сложно сконцентрироваться,</span>
+          <span class="line"
+            >Или почему нам так сложно сконцентрироваться,</span
+          >
           особенно когда очень надо
         </p>
       </div>
     </header>
     <main class="information-unit">
-      <section class="concentration-problems">
+      <section class="concentration-problems content-section">
         <h2 class="section-title">Почему сосредоточиться так сложно</h2>
-          <div class="text-blocks">
-          <h2 class="description-title">Многозадачность</h2>
+        <div class="text-blocks">
+          <h3 class="description-title">Многозадачность</h3>
           <p class="description">
             Особенно сложно сосредоточиться, когда задач много и все они —
             важные. Где же легендарная многозадачность, когда она так нужна вам
             (и всем нанимающим менеджерам этого мира)? А дело в том, что её
-            просто не существует. Исследователи выяснили, что мозгу тяжело
-            концентрироваться даже на двух делах одновременно. А когда в поле
-            внимания попадает несколько важных задач, организм паникует и
-            выделяет кортизол и адреналин — «гормоны стресса». Из-за этого мы
-            работаем невнимательно: ошибаемся и быстро устаём.
+            просто не существует. Исследователи
+            <a href="https://dana.org/news-and-insights/"> выяснили</a>, что
+            мозгу тяжело концентрироваться даже на двух делах одновременно. А
+            когда в поле внимания попадает несколько важных задач, организм
+            паникует и выделяет кортизол и адреналин — «гормоны стресса». Из-за
+            этого мы работаем невнимательно: ошибаемся и быстро устаём.
           </p>
-          <h2 class="description-title">Дофамин</h2>
+          <h3 class="description-title">Дофамин</h3>
           <p class="description">
             С гормонами стресса всё понятно, но дальше — ещё интереснее. В нашей
             невозможности сосредоточиться замешана и полная противоположность
@@ -76,11 +86,12 @@
           </p>
         </div>
       </section>
-      <section class="attention-factors">
+
+      <section class="attention-factors content-section">
         <h2 class="section-title">Что снижает концентрацию внимания?</h2>
-          <div class="text-cards">
+        <div class="text-cards">
           <article class="card">
-            <h2 class="description-title">Многозадачность</h2>
+            <h3 class="description-title">Многозадачность</h3>
             <p class="description">
               Как концентрация может снижаться из-за… концентрации? Любая
               стрессовая ситуация (и резко меняющийся мир в целом) заставляет
@@ -91,7 +102,7 @@
             </p>
           </article>
           <article class="card">
-            <h2 class="description-title">Еда</h2>
+            <h3 class="description-title">Еда</h3>
             <p class="description">
               «Быстрые углеводы» — сахар, белый хлеб, сладости — молниеносно
               доставляют в мозг энергию и помогают ему лучше работать. Но уходит
@@ -102,7 +113,7 @@
             </p>
           </article>
           <article class="card">
-            <h2 class="description-title">Гаджеты</h2>
+            <h3 class="description-title">Гаджеты</h3>
             <p class="description">
               Да-да, это та самая ситуация, когда на экране ноутбука — код, в
               наушниках — подкаст, а на компьютере фоном — ещё и видео с
@@ -115,16 +126,17 @@
           </article>
         </div>
       </section>
-      <section class="concentration-methods">
+
+      <section class="concentration-methods content-section">
         <h2 class="section-title">
           Как концентрироваться лучше, чем золотая рыбка (то есть дольше трёх
           секунд)
         </h2>
         <div class="recommendations">
-          <h2 class="description-title">
+          <h3 class="description-title">
             5 простых (на самом деле не очень) советов
-          </h2>
-          <h2 class="method-title">Представьте небо и облака</h2>
+          </h3>
+          <h4 class="method-title">Представьте небо и облака</h4>
           <p class="description">
             Или листья в ручье. Тут дело в лёгкой медитации, которая помогает
             успокоиться. Ведь часто именно тревожные мысли о сложных задачах как
@@ -135,30 +147,35 @@
             вернуться в настоящий момент, а не волноваться о потенциальных
             проблемах из будущего.
           </p>
-          <h2 class="method-title">Включите музыку</h2>
+          <h4 class="method-title">Включите музыку</h4>
           <p class="description">
             Но не любую, и не любимую. Любимая может быть связана с сильными
             положительными эмоциями, которые тоже очень сильно отвлекают.
             Подойдёт тихая, спокойная, умеренно-ритмичная. Можно вообще
             попробовать включить плейлист c «белым шумом» или нейромузыкой.
           </p>
-          <h2 class="method-title">Прогуляйтесь</h2>
+          <h4 class="method-title">Прогуляйтесь</h4>
           <p class="description">
             Или даже пробегитесь. Лучше найти парк или лес: один эксперимент
-            показал, что созерцание природы повышает концентрацию, в то время
-            как после просмотра городских пейзажей она наоборот понижается.
-            Можно совместить прогулку с физическими упражнениями или бегом — так
-            в мозг поступит ещё больше кислорода и он будет лучше работать. Но и
+            <a
+              href="https://www.sciencedirect.com/science/article/abs/pii/S0272494415000328"
+            >
+              показал</a
+            >
+            , что созерцание природы повышает концентрацию, в то время как после
+            просмотра городских пейзажей она наоборот понижается. Можно
+            совместить прогулку с физическими упражнениями или бегом — так в
+            мозг поступит ещё больше кислорода и он будет лучше работать. Но и
             простая двадцатиминутная прогулка — тоже отличный вариант.
           </p>
-          <h2 class="method-title">Хорошо ешьте</h2>
+          <h4 class="method-title">Хорошо ешьте</h4>
           <p class="description">
             Мы — не ваша бабушка, но это правда важно. Выбирайте продукты,
             которые препятствуют резким скачкам сахара в крови. Например, с
             высоким содержанием клетчатки: овощи, ягоды, бобовые (нут, чечевица,
             фасоль), коричневый рис, хлеб из цельнозерновой пшеницы.
           </p>
-          <h2 class="method-title">Читайте</h2>
+          <h4 class="method-title">Читайте</h4>
           <p class="description">
             Настоящие бумажные книги. Это правда помогает с концентрацией: чтобы
             прочитать пост в соцсети, достаточно нескольких минут или даже
@@ -167,32 +184,33 @@
           </p>
         </div>
       </section>
-      <section class="gallery">
+
+      <section class="gallery content-section">
         <h2 class="description-title">А можно в картинках?</h2>
-        <figure
-          class="gallery-grid"
-          role="group"
-          aria-label="Галерея изображений">
-          <figure class="gallery-item sunset">
+        <div class="gallery-grid" role="group" aria-label="Галерея изображений">
+          <div class="gallery-item sunset">
             <img src="./images/sunset.png" alt="Закат" loading="lazy" />
-          </figure>
-          <figure class="gallery-item tape">
+          </div>
+          <div class="gallery-item tape">
             <img src="./images/tape.png" alt="Кассета" loading="lazy" />
-          </figure>
-          <figure class="gallery-item street">
+          </div>
+          <div class="gallery-item street">
             <img src="./images/street.png" alt="Улица" loading="lazy" />
-          </figure>
-          <figure class="gallery-item books">
+          </div>
+          <div class="gallery-item books">
             <img src="./images/books.png" alt="Книги" loading="lazy" />
-          </figure>
-          <figure class="gallery-item ice-cream">
+          </div>
+          <div class="gallery-item ice-cream">
             <img src="./images/ice-cream.png" alt="Мороженное" loading="lazy" />
-          </figure>
-        </figure>
+          </div>
+        </div>
       </section>
-      <footer class="page-footer">
-        <h2 class="page-title">focus</h2>
-      </footer>
     </main>
+
+    <footer class="page-footer">
+      <div class="decorated-zone">
+        <h2 class="page-title">focus</h2>
+      </div>
+    </footer>
   </body>
 </html>
